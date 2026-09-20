@@ -3,7 +3,7 @@
         "Author":  "konvarec",
         "Name":  "PlayerMapping",
         "InternalName":  "PlayerMapping",
-        "AssemblyVersion":  "0.1.0.13",
+        "AssemblyVersion":  "0.1.0.14",
         "Description":  "周囲のプレイヤー・モブ・FATEを地図に表示します。初回利用時に、配布元から案内された利用キーの入力が必要です。",
         "ApplicableVersion":  "any",
         "Tags":  [
@@ -20,9 +20,9 @@
         "Punchline":  "Realtime player overlay on the current map.",
         "AcceptsFeedback":  true,
         "RepoUrl":  "https://github.com/konvarec/PlayerMappingCustomRepo",
-        "DownloadLinkInstall":  "https://raw.githubusercontent.com/konvarec/PlayerMappingCustomRepo/main/PlayerMapping/0.1.0.13/latest.zip",
-        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/konvarec/PlayerMappingCustomRepo/main/PlayerMapping/0.1.0.13/latest.zip",
-        "DownloadLinkTesting":  "https://raw.githubusercontent.com/konvarec/PlayerMappingCustomRepo/main/PlayerMapping/0.1.0.13/latest.zip",
-        "LastUpdate":  1789931020
+        "DownloadLinkInstall":  "https://raw.githubusercontent.com/konvarec/PlayerMappingCustomRepo/main/PlayerMapping/0.1.0.14/latest.zip",
+        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/konvarec/PlayerMappingCustomRepo/main/PlayerMapping/0.1.0.14/latest.zip",
+        "DownloadLinkTesting":  "https://raw.githubusercontent.com/konvarec/PlayerMappingCustomRepo/main/PlayerMapping/0.1.0.14/latest.zip",
+        "LastUpdate":  1789932867
     }
 ]
