@@ -3,7 +3,7 @@
         "Author":  "konvarec",
         "Name":  "HuntPad",
         "InternalName":  "PlayerMapping",
-        "AssemblyVersion":  "0.1.0.17",
+        "AssemblyVersion":  "0.1.0.18",
         "Description":  "HuntPad（ハントパッド）は、モブハントのお供になる情報端末です。周囲のプレイヤー・モブ・FATEの地図表示、位置案内、Sモブトリガーカウンターで狩りを支援します。/huntpadで開閉できます（従来の/playermapも利用可能）。初回利用時に、配布元から案内された利用キーの入力が必要です。",
         "ApplicableVersion":  "any",
         "Tags":  [
@@ -19,12 +19,13 @@
         "LoadSync":  false,
         "CanUnloadAsync":  false,
         "LoadPriority":  0,
+        "IconUrl":  "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/images/huntpad-v2.png",
         "Punchline":  "地図とカウンターで、モブハントをナビゲート。",
         "AcceptsFeedback":  true,
         "RepoUrl":  "https://github.com/konvarec/HuntPadCustomRepo",
-        "DownloadLinkInstall":  "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/PlayerMapping/0.1.0.17/latest.zip",
-        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/PlayerMapping/0.1.0.17/latest.zip",
-        "DownloadLinkTesting":  "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/PlayerMapping/0.1.0.17/latest.zip",
-        "LastUpdate":  1789998380
+        "DownloadLinkInstall":  "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/PlayerMapping/0.1.0.18/latest.zip",
+        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/PlayerMapping/0.1.0.18/latest.zip",
+        "DownloadLinkTesting":  "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/PlayerMapping/0.1.0.18/latest.zip",
+        "LastUpdate":  1789999567
     }
 ]

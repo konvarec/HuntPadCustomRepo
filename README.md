@@ -1,5 +1,7 @@
 # HuntPad（ハントパッド）
 
+<img src="https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/images/huntpad-v2.png" alt="HuntPad icon" width="128" height="128">
+
 **地図とカウンターで、モブハントをナビゲート。**
 
 FFXIV / Dalamud向けの、モブハントのお供になる情報端末です。プレイヤー・モブ・FATEの地図表示、位置案内、Sモブトリガーカウンターで狩りを支援します。
@@ -52,10 +54,16 @@ Dalamudのプラグインインストーラーから更新できます。
 - `PlayerMapping/<version>/latest.zip`: 版ごとの配布パッケージ。
 - `DIST_VERSION.txt`: 現在の配布版。
 - `SHA256SUMS.txt`: 現在のZIPのSHA-256。
+- `images/huntpad-v2.png`: プラグイン一覧用の512 x 512アイコン。SHA-256も上記ファイルに記録。
 
 ZIPは公開ダウンロードです。利用キーによる制限はプラグイン内で行います。
 解除前は地図・設定・カウンターの表示、チャット集計、通知、外部データ取得を行いません。
 このリポジトリにはソースコードや実行ログを含めません。
+
+## 0.1.0.18
+
+- 地図と方位針、モブカウンターを組み合わせたHuntPad専用アイコンを追加。
+- プラグイン一覧の`IconUrl`を設定し、PNG形式・寸法・公開URL・チェックサムの検証を追加。
 
 ## 0.1.0.17
 
