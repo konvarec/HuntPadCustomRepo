@@ -1,28 +1,30 @@
 [
     {
         "Author":  "konvarec",
-        "Name":  "PlayerMapping",
+        "Name":  "HuntPad",
         "InternalName":  "PlayerMapping",
-        "AssemblyVersion":  "0.1.0.15",
-        "Description":  "周囲のプレイヤー・モブ・FATEを地図に表示します。初回利用時に、配布元から案内された利用キーの入力が必要です。",
+        "AssemblyVersion":  "0.1.0.17",
+        "Description":  "HuntPad（ハントパッド）は、モブハントのお供になる情報端末です。周囲のプレイヤー・モブ・FATEの地図表示、位置案内、Sモブトリガーカウンターで狩りを支援します。/huntpadで開閉できます（従来の/playermapも利用可能）。初回利用時に、配布元から案内された利用キーの入力が必要です。",
         "ApplicableVersion":  "any",
         "Tags":  [
                      "map",
                      "overlay",
                      "pvp",
-                     "players"
+                     "players",
+                     "hunt",
+                     "counter"
                  ],
         "DalamudApiLevel":  15,
         "LoadRequiredState":  0,
         "LoadSync":  false,
         "CanUnloadAsync":  false,
         "LoadPriority":  0,
-        "Punchline":  "Realtime player overlay on the current map.",
+        "Punchline":  "地図とカウンターで、モブハントをナビゲート。",
         "AcceptsFeedback":  true,
-        "RepoUrl":  "https://github.com/konvarec/PlayerMappingCustomRepo",
-        "DownloadLinkInstall":  "https://raw.githubusercontent.com/konvarec/PlayerMappingCustomRepo/main/PlayerMapping/0.1.0.15/latest.zip",
-        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/konvarec/PlayerMappingCustomRepo/main/PlayerMapping/0.1.0.15/latest.zip",
-        "DownloadLinkTesting":  "https://raw.githubusercontent.com/konvarec/PlayerMappingCustomRepo/main/PlayerMapping/0.1.0.15/latest.zip",
-        "LastUpdate":  1789937329
+        "RepoUrl":  "https://github.com/konvarec/HuntPadCustomRepo",
+        "DownloadLinkInstall":  "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/PlayerMapping/0.1.0.17/latest.zip",
+        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/PlayerMapping/0.1.0.17/latest.zip",
+        "DownloadLinkTesting":  "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/PlayerMapping/0.1.0.17/latest.zip",
+        "LastUpdate":  1789998380
     }
 ]
