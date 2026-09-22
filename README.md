@@ -1,48 +1,48 @@
-# HuntPad（ハントパッド）
+# HuntPad
 
-<img src="https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/images/huntpad-v2.png" alt="HuntPad icon" width="128" height="128">
+<img src="https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/images/huntpad-v2.png" alt="HuntPad icon" width="128">
 
-FFXIV / Dalamud向けのモブハント支援ツールです。`/huntpad`で開きます。
+HuntPad is an FFXIV / Dalamud companion for hunt activity. Open it with `/huntpad`.
 
-## できること
+## Features
 
-- 周囲のプレイヤー、モブ、FATEを地図に表示
-- リスキーモブのPOP候補を地図に表示し、見つけた地点を記録
-- モブハントエリアのPOP地点が収まるよう地図を自動調整
-- Sモブトリガーをカウント
-- 未観測POPの通知と、リスキーモブのリポップ時刻連携
+- Display nearby players, mobs, and FATEs on a map
+- Show risky-mob spawn candidates and record observed spawn points
+- Automatically fit the map to the hunt area's spawn points
+- Count S-rank trigger progress
+- Notify on unobserved spawns and check risky-mob respawn-time data
 
-## インストール
+## Installation
 
-1. Dalamud設定の「試験的機能 / Experimental」を開きます。
-2. 「カスタムプラグインリポジトリ」に次のURLを追加して保存します。
+1. Open Dalamud Settings and go to **Experimental**.
+2. Add this URL under **Custom Plugin Repositories**:
 
    ```text
    https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/pluginmaster.json
    ```
 
-3. プラグインインストーラーを開き直し、`HuntPad`をインストールします。
-4. 初回に利用キーを入力し、`/huntpad`で地図を開きます。
+3. Reopen the Plugin Installer and install **HuntPad**.
+4. Enter the distribution access key on first launch, then open the map with `/huntpad`.
 
-利用キーはObserver（HuntVoidWatcher）と共通です。キーはこのリポジトリやIssueに投稿しないでください。
+The access key is shared with Observer (HuntVoidWatcher). Do not post it in this repository or in Issues.
 
-## 基本の使い方
+## Quick Start
 
-- 地図を開く: `/huntpad`
-- POP地点を表示する: エリアごとの設定で「MOBPOS」をON
-- 地図をPOP地点に合わせる: 共通設定で「モブハントエリアのPOP位置に地図を自動フィット」をON
-- 記録の状態を確認する: 共通設定の「POP記録の診断情報をコピー」
+- Open the map: `/huntpad`
+- Show spawn points: enable **MOBPOS** in the area's settings
+- Fit the map to spawn points: enable **Auto-fit map to hunt spawn points** in shared settings
+- Inspect spawn records: use **Copy POP record diagnostics** in shared settings
 
-## 0.2.0.0への切り替え
+## Moving from 0.1.0.19 or Earlier
 
-0.1.0.19以前を使っている場合は、旧版を無効化してから一覧を再取得し、HuntPad 0.2.0.0を新規インストールしてください。旧版と新版を同時に有効にしないでください。
+HuntPad 0.2.0.0 and later use a new internal identity. Disable the older plugin, refresh the Plugin Installer, and install HuntPad as a new plugin. Do not enable both versions at the same time.
 
-初回だけ、`HuntPad.json`がなければ旧設定からPOP記録・設定・利用キー解除状態を取り込みます。旧設定ファイルはバックアップとして残ります。
+On first launch only, if `HuntPad.json` does not yet exist, HuntPad imports your previous spawn records, settings, and access state. The previous settings file is kept as a backup.
 
-## 配布内容
+## Repository Contents
 
-- `pluginmaster.json`: インストール・更新用一覧
-- `HuntPad/<version>/latest.zip`: プラグイン本体
-- `images/huntpad-v2.png`: プラグイン一覧用アイコン
+- `pluginmaster.json`: repository index
+- `HuntPad/<version>/latest.zip`: plugin package
+- `images/huntpad-v2.png`: Plugin Installer icon
 
-このリポジトリにはソースコード、ログ、利用キーを含めません。
+This repository contains no source code, logs, or access keys.

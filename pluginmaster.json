@@ -3,8 +3,8 @@
         "Author":  "konvarec",
         "Name":  "HuntPad",
         "InternalName":  "HuntPad",
-        "AssemblyVersion":  "0.2.0.0",
-        "Description":  "HuntPad（ハントパッド）は、モブハントのお供になる情報端末です。周囲のプレイヤー・モブ・FATEの地図表示、位置案内、Sモブトリガーカウンターで狩りを支援します。/huntpadで開閉できます。初回利用時に、配布元から案内された利用キーの入力が必要です。",
+        "AssemblyVersion":  "0.2.0.1",
+        "Description":  "HuntPad is a companion for FFXIV hunt activity. It maps nearby players, mobs, and FATEs; records risky-mob spawn points; and provides S-rank trigger counters. Open it with /huntpad. A distribution access key is required before first use.",
         "ApplicableVersion":  "any",
         "Tags":  [
                      "map",
@@ -20,12 +20,12 @@
         "CanUnloadAsync":  false,
         "LoadPriority":  0,
         "IconUrl":  "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/images/huntpad-v2.png",
-        "Punchline":  "地図とカウンターで、モブハントをナビゲート。",
+        "Punchline":  "Map, track, and navigate your hunts.",
         "AcceptsFeedback":  true,
         "RepoUrl":  "https://github.com/konvarec/HuntPadCustomRepo",
-        "DownloadLinkInstall":  "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/HuntPad/0.2.0.0/latest.zip",
-        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/HuntPad/0.2.0.0/latest.zip",
-        "DownloadLinkTesting":  "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/HuntPad/0.2.0.0/latest.zip",
-        "LastUpdate":  1790050370
+        "DownloadLinkInstall":  "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/HuntPad/0.2.0.1/latest.zip",
+        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/HuntPad/0.2.0.1/latest.zip",
+        "DownloadLinkTesting":  "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/HuntPad/0.2.0.1/latest.zip",
+        "LastUpdate":  1790051802
     }
 ]
