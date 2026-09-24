@@ -1,31 +1,29 @@
-[
-    {
-        "Author":  "konvarec",
-        "Name":  "HuntPad",
-        "InternalName":  "HuntPad",
-        "AssemblyVersion":  "0.2.0.1",
-        "Description":  "HuntPad is a companion for FFXIV hunt activity. It maps nearby players, mobs, and FATEs; records risky-mob spawn points; and provides S-rank trigger counters. Open it with /huntpad. A distribution access key is required before first use.",
-        "ApplicableVersion":  "any",
-        "Tags":  [
-                     "map",
-                     "overlay",
-                     "pvp",
-                     "players",
-                     "hunt",
-                     "counter"
-                 ],
-        "DalamudApiLevel":  15,
-        "LoadRequiredState":  0,
-        "LoadSync":  false,
-        "CanUnloadAsync":  false,
-        "LoadPriority":  0,
-        "IconUrl":  "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/images/huntpad-v2.png",
-        "Punchline":  "Map, track, and navigate your hunts.",
-        "AcceptsFeedback":  true,
-        "RepoUrl":  "https://github.com/konvarec/HuntPadCustomRepo",
-        "DownloadLinkInstall":  "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/HuntPad/0.2.0.1/latest.zip",
-        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/HuntPad/0.2.0.1/latest.zip",
-        "DownloadLinkTesting":  "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/HuntPad/0.2.0.1/latest.zip",
-        "LastUpdate":  1790051802
-    }
-]
+[{
+  "Author": "konvarec",
+  "Name": "HuntPad",
+  "InternalName": "HuntPad",
+  "AssemblyVersion": "0.2.0.2",
+  "Description": "HuntPad is a companion for FFXIV hunt activity. It maps nearby players, mobs, and FATEs; records risky-mob spawn points; and provides S-rank trigger counters. Open it with /huntpad. A distribution access key is required before first use.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "map",
+    "overlay",
+    "pvp",
+    "players",
+    "hunt",
+    "counter"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/images/huntpad-v2.png",
+  "Punchline": "Map, track, and navigate your hunts.",
+  "AcceptsFeedback": true,
+  "RepoUrl": "https://github.com/konvarec/HuntPadCustomRepo",
+  "DownloadLinkInstall": "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/HuntPad/0.2.0.2/latest.zip",
+  "DownloadLinkUpdate": "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/HuntPad/0.2.0.2/latest.zip",
+  "DownloadLinkTesting": "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/HuntPad/0.2.0.2/latest.zip",
+  "LastUpdate": 1790280713
+}]
