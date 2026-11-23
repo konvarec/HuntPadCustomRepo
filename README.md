@@ -4,7 +4,7 @@
 
 HuntPad is an FFXIV / Dalamud companion for hunt activity. Open it with `/huntpad`.
 
-Current release **0.4.1.9** for Dalamud API 15. In areas without a local aetheryte, automatic patrol waits in place between rounds.
+Current release **0.4.1.10** for Dalamud API 15. Manual reports from the Web map now mark points on the HuntPad map and narrow down S-rank spawn candidates. This requires HuntVoidWatcher 0.7.0.2 or later and shared points enabled in HuntPad.
 
 ## Features
 
