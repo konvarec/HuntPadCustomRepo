@@ -4,7 +4,7 @@
 
 HuntPad is an FFXIV / Dalamud companion for hunt activity. Open it with `/huntpad`.
 
-Current release **0.4.1.5** for Dalamud API 15. The patrol window and chat now report why automatic patrol could not start.
+Current release **0.4.1.9** for Dalamud API 15. In areas without a local aetheryte, automatic patrol waits in place between rounds.
 
 ## Features
 
@@ -35,7 +35,7 @@ The access key is shared with Observer (HuntVoidWatcher). Do not post it in this
 
 - Open the map: `/huntpad`
 - Show recorded spawn points with **●** and candidate rings with **◎** on the map
-- Open automatic identification (**自動特定**) and automatic patrol (**自動巡回**) with `/huntpad scout`. Identification requires vnavmesh and Wrath Combo. Patrol requires vnavmesh and a flying mount.
+- Open automatic identification (**自動特定**) and automatic patrol (**自動巡回**) with `/huntpad scout`. Both modes require vnavmesh and Wrath Combo. Automatic patrol also requires a flying mount and Wrath Combo's automatic combat set to OFF.
 - Fit the map to spawn points: enable **Auto-fit map to hunt spawn points** in shared settings
 - Inspect spawn records: use **Copy POP record diagnostics** in shared settings
 
