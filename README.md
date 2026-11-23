@@ -4,7 +4,7 @@
 
 HuntPad is an FFXIV / Dalamud companion for hunt activity. Open it with `/huntpad`.
 
-Current release **0.4.1.3** for Dalamud API 15.
+Current release **0.4.1.5** for Dalamud API 15. The patrol window and chat now report why automatic patrol could not start.
 
 ## Features
 
