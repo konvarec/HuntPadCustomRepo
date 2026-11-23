@@ -4,6 +4,8 @@
 
 HuntPad is an FFXIV / Dalamud companion for hunt activity. Open it with `/huntpad`.
 
+Current release **0.4.1.3** for Dalamud API 15.
+
 ## Features
 
 - Display nearby players, mobs, and FATEs on a map
@@ -11,6 +13,9 @@ HuntPad is an FFXIV / Dalamud companion for hunt activity. Open it with `/huntpa
 - Automatically fit the map to the hunt area's spawn points
 - Count S-rank trigger progress
 - Notify on unobserved spawns and check risky-mob respawn-time data
+- Narrow down the next S-rank spawn location with automatic B-rank hunting
+- Patrol the current area without attacking, on an interval of 10–720 minutes
+- Receive shared A- and B-rank spawn observations from HuntVoidWatcher 0.7.0.0 or later
 
 ## Installation
 
@@ -29,7 +34,8 @@ The access key is shared with Observer (HuntVoidWatcher). Do not post it in this
 ## Quick Start
 
 - Open the map: `/huntpad`
-- Show spawn points: enable **MOBPOS** in the area's settings
+- Show recorded spawn points with **●** and candidate rings with **◎** on the map
+- Open automatic identification (**自動特定**) and automatic patrol (**自動巡回**) with `/huntpad scout`. Identification requires vnavmesh and Wrath Combo. Patrol requires vnavmesh and a flying mount.
 - Fit the map to spawn points: enable **Auto-fit map to hunt spawn points** in shared settings
 - Inspect spawn records: use **Copy POP record diagnostics** in shared settings
 
