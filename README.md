@@ -4,7 +4,7 @@
 
 HuntPad is an FFXIV / Dalamud companion for hunt activity. Open it with `/huntpad`.
 
-Current release **0.4.1.10** for Dalamud API 15. Manual reports from the Web map now mark points on the HuntPad map and narrow down S-rank spawn candidates. This requires HuntVoidWatcher 0.7.0.2 or later and shared points enabled in HuntPad.
+Current release **0.4.1.14** for Dalamud API 15. Shared spawn records stay visible during loading on the same map. The S-location window stays open when you press Esc. Patrol offers a single run or repeated runs with a countdown.
 
 ## Features
 
@@ -35,7 +35,8 @@ The access key is shared with Observer (HuntVoidWatcher). Do not post it in this
 
 - Open the map: `/huntpad`
 - Show recorded spawn points with **●** and candidate rings with **◎** on the map
-- Open automatic identification (**自動特定**) and automatic patrol (**自動巡回**) with `/huntpad scout`. Both modes require vnavmesh and Wrath Combo. Automatic patrol also requires a flying mount and Wrath Combo's automatic combat set to OFF.
+- Open automatic identification (**自動特定**), single patrol (**1回巡回**), and recurring patrol (**定期巡回**) with `/huntpad scout`. All three modes require vnavmesh and Wrath Combo. Both patrol modes require a flying mount and Wrath Combo's automatic combat set to OFF.
+- To use Web map reports in HuntPad, enable shared spawn points and install HuntVoidWatcher 0.7.0.2 or later.
 - Fit the map to spawn points: enable **Auto-fit map to hunt spawn points** in shared settings
 - Inspect spawn records: use **Copy POP record diagnostics** in shared settings
 
