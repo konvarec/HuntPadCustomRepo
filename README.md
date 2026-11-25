@@ -4,7 +4,7 @@
 
 HuntPad is an FFXIV / Dalamud companion for hunt activity. Open it with `/huntpad`.
 
-Current release **0.4.1.14** for Dalamud API 15. Shared spawn records stay visible during loading on the same map. The S-location window stays open when you press Esc. Patrol offers a single run or repeated runs with a countdown.
+Current release **0.4.1.15** for Dalamud API 15. HuntPad can report its loaded version to HuntVoidWatcher for display in the management dashboard when the integration supports it.
 
 ## Features
 
