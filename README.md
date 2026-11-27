@@ -4,7 +4,7 @@
 
 HuntPad is an FFXIV / Dalamud companion for hunt activity. Open it with `/huntpad`.
 
-Current release **0.4.1.16** for Dalamud API 15. Scout diagnostics record the conditions and data sources behind interruptions, including respawn cycle comparisons.
+Current release **0.4.1.17** for Dalamud API 15. Scout tries an alternate waypoint when vnavmesh detects a flight-path calculation loop.
 
 ## Features
 

@@ -3,7 +3,7 @@
   "Author": "konvarec",
   "Name": "HuntPad",
   "InternalName": "HuntPad",
-  "AssemblyVersion": "0.4.1.16",
+  "AssemblyVersion": "0.4.1.17",
   "Description": "HuntPad is a companion for FFXIV hunt activity. It maps nearby players, mobs, and FATEs; records risky-mob spawn points; and provides S-rank trigger counters. Open it with /huntpad. A distribution access key is required before first use.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -23,9 +23,9 @@
   "Punchline": "Map, track, and navigate your hunts.",
   "AcceptsFeedback": true,
   "RepoUrl": "https://github.com/konvarec/HuntPadCustomRepo",
-  "DownloadLinkInstall": "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/HuntPad/0.4.1.16/latest.zip",
-  "DownloadLinkUpdate": "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/HuntPad/0.4.1.16/latest.zip",
-  "DownloadLinkTesting": "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/HuntPad/0.4.1.16/latest.zip",
-  "LastUpdate": 1795743403
+  "DownloadLinkInstall": "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/HuntPad/0.4.1.17/latest.zip",
+  "DownloadLinkUpdate": "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/HuntPad/0.4.1.17/latest.zip",
+  "DownloadLinkTesting": "https://raw.githubusercontent.com/konvarec/HuntPadCustomRepo/main/HuntPad/0.4.1.17/latest.zip",
+  "LastUpdate": 1795746769
 }
 ]
