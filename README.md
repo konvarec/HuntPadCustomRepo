@@ -4,7 +4,7 @@
 
 HuntPad is an FFXIV / Dalamud companion for hunt activity. Open it with `/huntpad`.
 
-Current release **0.4.1.15** for Dalamud API 15. HuntPad can report its loaded version to HuntVoidWatcher for display in the management dashboard when the integration supports it.
+Current release **0.4.1.16** for Dalamud API 15. Scout diagnostics record the conditions and data sources behind interruptions, including respawn cycle comparisons.
 
 ## Features
 
